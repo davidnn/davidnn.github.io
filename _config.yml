@@ -7,3 +7,6 @@ plugins:
   - jekyll-mentions
   - jekyll-seo-tag
   - jekyll-sitemap
+
+exclude:
+  - CLAUDE.md
