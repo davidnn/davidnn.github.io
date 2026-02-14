@@ -80,6 +80,11 @@ There are no automated tests. Verify changes by running `bundle exec jekyll serv
 - The `title` field sets the site header. `description` provides SEO metadata.
 - `show_downloads: false` hides the GitHub download buttons from the theme.
 
+## Git Workflow
+
+- Create a new feature branch for each distinct change. Never reuse a branch after its PR has been merged.
+- After a PR is merged, pull the latest `main` and start a fresh branch for the next change.
+
 ## Guidelines for Changes
 
 - Keep the site simple and static. Avoid adding build complexity or JavaScript unless explicitly requested.
