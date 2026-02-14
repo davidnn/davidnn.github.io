@@ -1,8 +1,9 @@
 title: David NN
-description:
-google_analytics: 
+description: Systemarkitekt - akademiska meriter inom systemutveckling, företagsekonomi och design
 show_downloads: false
 theme: jekyll-theme-minimal
 
-gems:
+plugins:
   - jekyll-mentions
+  - jekyll-seo-tag
+  - jekyll-sitemap
